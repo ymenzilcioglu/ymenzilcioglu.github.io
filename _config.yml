@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yuichiro Waki"
+title                    : "Yagmur Menzilcioglu"
 title_separator          : "-"
-name                     : &name "Yuichiro Waki"
-description              : &description "Associate Professor of Economics, Aoyama Gakuin University"
-url                      : https://ywaki-econ.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Yagmur Menzilcioglu"
+description              : &description "Ph.D. Candidate in Economics, Georgetown University"
+url                      : https://ymenzilcioglu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : ""
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -40,7 +40,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : "ym406@georgetown.edu"
   generatedFields:
     date:
       type               : "date"
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yuichiro Waki"
+  name             : "Yagmur Menzilcioglu"
   avatar           : "profile.png"
-  bio              : "Associate Professor of Economics, Aoyama Gakuin University"
-  location         : "Tokyo"
-  employer         : "Aoyama Gakuin University"
+  bio              : "Ph.D. Candidate in Economics, Georgetown University"
+  location         : "Washington, D.C."
+  employer         : "Georgetown University University"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=efRzRDgAAAAJ"
-  email            : "ywakiecon@gmail.com"
+  googlescholar    : #"https://scholar.google.com/citations?user=efRzRDgAAAAJ"
+  email            : "ym406@georgetown.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ywaki-econ"
+  github           : "ymenzilcioglu"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/0000-0003-1929-3520"
+  orcid            : #"http://orcid.org/0000-0003-1929-3520"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -256,7 +256,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
