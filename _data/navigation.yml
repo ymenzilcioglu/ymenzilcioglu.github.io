@@ -1,19 +1,8 @@
 # main links links
 main:
-  - title: "Research"
-    url: /research/
-    
   - title: "CV"
     url: /cv/
 
-  - title: "Seminars"
-    url: /seminars/
-
-  - title: "推薦状について"
-    url: /referenceletter/
-
-  - title: "学部ゼミ"
-    url: /undergradseminar/
-
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "Research"
+    url: /research/
+    
